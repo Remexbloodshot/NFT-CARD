@@ -20,6 +20,7 @@ body{
     height: 50%;
     margin-top: 10px;
     margin-left: 5%;
+    opacity: 1;
 }
 .jules{
     width: 30px;
@@ -85,4 +86,24 @@ img{
 }
 .ok{
     color: white;
+}
+.ot{
+    margin-right: -5px;
+    color: hsl(215, 32%, 27%);
+    font-weight: medium;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+}
+.equiv{
+    background-image: url(/images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    background-color:hsl(178, 100%, 50%);
+    width: 80%;
+
+}
+.equiv:hover .equilibrium{
+    opacity: 0.3;
+    width: 90%;
 }
